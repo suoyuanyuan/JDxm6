@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="330dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_fen2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:text="哈哈"
+        android:textColor="#ffff"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:background="#330000ff"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/re3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

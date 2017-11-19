@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.bawei.jdxm6.MainActivity">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:orientation="horizontal"
+        >
+
+    <RadioButton
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:gravity="center"
+        android:background="@drawable/shou"
+        android:textSize="20sp" />
+
+
+    <RadioButton
+        android:id="@+id/bt5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/xiao"
+        android:button="@null"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+    <RadioButton
+        android:id="@+id/bt3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gou"
+        android:button="@null"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+    <RadioButton
+        android:id="@+id/bt4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wo"
+        android:button="@null"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/img_fen1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_fen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_gravity="center_horizontal"
+        android:text="哈哈"
+        />
+
+</LinearLayout>
